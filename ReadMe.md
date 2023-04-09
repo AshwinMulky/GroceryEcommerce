@@ -18,6 +18,7 @@ Use Postman or Thunder Client in VS Code.
 > **Note**: Item parameter name is renamed to **taxable** from **isTaxable** to make it compatible with code.
 
 POST http://localhost:8080/grocery/receipt
+
 Example Request Json:
 {
   "items": [
