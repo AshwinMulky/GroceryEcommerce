@@ -20,7 +20,7 @@ Use Postman or Thunder Client in VS Code.
 POST http://localhost:8080/grocery/receipt
 
 Example Request Json:
-{
+`{
   "items": [
     {
       "itemName": "Two Bite Brownies",
@@ -37,17 +37,17 @@ Example Request Json:
       "price": 3.31
     }
   ]
-}
+}`
 
 ### Output
-{
+`{
   "subtotalBeforeDiscounts": 6.92,
   "discountTotal": 0.79,
   "subtotalAfterDiscounts": 6.13,
   "taxableSubtotalAfterDiscounts": 3.31,
   "taxTotal": 0.27,
   "grandTotal": 6.4
-}
+}`
 
 ### Problem definition
 Write a shopping cart receipt api (input cart.json)
